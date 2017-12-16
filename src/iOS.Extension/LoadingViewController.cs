@@ -11,6 +11,7 @@ namespace Bit.iOS.Extension
 
         public override void ViewDidLoad()
         {
+            // These are all null in the app extension.
             System.Diagnostics.Debug.WriteLine(
                 "TESTLOG: ClientId is null: " + GaiConstants.ClientId == null);
             System.Diagnostics.Debug.WriteLine(
