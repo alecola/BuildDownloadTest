@@ -11,6 +11,7 @@
     <AssemblyName>BitwardeniOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <ProvisioningType>automatic</ProvisioningType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,9 +26,8 @@
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>True</MtouchDebug>
     <MtouchSdkVersion>9.3</MtouchSdkVersion>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <CodesignProvision>
-    </CodesignProvision>
+    <CodesignKey>Apple Development: Alessandro Colamarino (YCV5RVU967)</CodesignKey>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
     <CodesignExtraArgs>
     </CodesignExtraArgs>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
@@ -75,7 +75,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <MtouchDebug>True</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <CodesignProvision>
@@ -224,8 +224,8 @@
     <ProjectReference Include="..\iOS.Extension\iOS.Extension.csproj">
       <Project>{32F5A2D6-F54D-4DA1-AE26-0A980D48F422}</Project>
       <Name>iOS.Extension</Name>
-      <IsAppExtension>True</IsAppExtension>
-      <IsWatchApp>False</IsWatchApp>
+      <IsAppExtension>true</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
